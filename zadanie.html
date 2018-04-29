@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PGS iTunes Search</title>
+    <script src="JSzad.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylePGS.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+
+    <img id="logo" src="PGSlogo.png">
+
+    <div id="upper_bar">
+        <p id="title">iTunes api example</p>
+
+        <div id="search_bar">
+
+            <input onClick="this.setSelectionRange(0, this.value.length)" type="text" class="text_field"
+                   id="text_field_search" placeholder="Search songs.."
+                   onkeydown = "if (event.keyCode == 13)
+                        document.getElementById('search_button').click()"/><!--
+
+            --><button id="search_button" onclick="search_button_clicked()">Search</button>
+
+        </div>
+
+        <p id="text_under">Search by song title, author, song number, lyrics, catalog or copyright owner</p>
+    </div>
+
+    <div id="found_songs">
+        <p></p>
+
+    </div>
+
+    <div id="tile_holder"></div>
+    <div id="button_holder"></div>
+    <div id="footer">Powered by PGS</div>
+</body>
+</html>

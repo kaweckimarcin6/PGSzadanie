@@ -1,0 +1,215 @@
+body {
+    font-family: Lato;
+    height: 100%;
+    min-height: 100%;
+}
+
+#logo {
+    height: 2.5em;
+    width: auto;
+    display: block;
+    margin: 10px auto 10px auto;
+    padding-right: 500px;
+}
+
+#upper_bar {
+    padding: 7px;
+    background-color: #2d2d2d;
+    color: white;
+    font-family: Lato;
+    align-content: center;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+#title {
+    margin-top: 0.6em;
+    font-size: 20px;
+}
+
+#search_bar {
+    display: block;
+    border-style: none;
+    border-radius: 100px;
+    overflow: hidden;
+    height: 25px;
+    width: fit-content;
+    margin: 0 auto;
+    display: inline-flex;
+}
+
+#text_field_search {
+    margin: 0px;
+    float: left;
+    border: none;
+    height: 100%;
+    width: 150px;
+    padding-left: 10%;
+    
+    box-sizing: border-box;
+}
+
+#search_button {
+    background-color: #f7941d;
+    float: right;
+    padding: 0px 15px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    height: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+#search_button:hover {
+    background-color: #f75a2c;
+    cursor: pointer;
+}
+
+#search_button:active {
+    background-color: red;
+}
+
+#search_button:focus {
+    outline: none;
+}
+
+#text_under {
+    font-size: x-small;
+    margin: 1.2em;
+}
+
+#found_songs {
+    visibility: hidden;
+    font-size: smaller;
+    text-align: center;
+}
+
+#tile_holder {
+    max-width: 680px;
+    min-width: 240px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tile_img {
+    margin: 10px;
+    height: 60px;
+    width: auto;
+    float: left;
+
+}
+
+.tile_text {
+    text-align: center;
+    padding-top: 7px;
+    margin: auto;
+}
+
+.title_text {
+    font-size: smaller;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.author_text {
+    font-size: x-small;
+    border-top: 1px solid #d4d4d4;
+    padding-top: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-top: 0px;
+    display: inline;
+}
+
+.tile {
+    height: 80px;
+    max-height: 80px;
+    width: 200px;
+    max-width: 200px;
+    background-color: #efefef;
+    margin: 10px;
+    display: inline-flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.tile_selected {
+    height: 80px;
+    max-height: 80px;
+    width: 200px;
+    max-width: 200px;
+    background-color: #f5c7a7;
+    margin: 10px;
+    display: inline-flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.tile:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.tile_selected:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+
+.page_button {
+    background-color: #f7941d;
+    float: right;
+    padding: 5px 15px;
+    border-style: none;
+    border-radius: 100px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    height: 100%;
+    box-sizing: border-box;
+    display: inline-flex;
+    margin: 10px;
+}
+
+.page_button:hover {
+    cursor: pointer;
+}
+
+.page_button:hover {
+    background-color: #f75a2c;
+}
+
+.page_button:active {
+    background-color: red;
+}
+
+.page_button:focus {
+    outline: none;
+}
+
+#button_holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2d2d2d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: smaller;
+}
+
+.lines {
+    color: #2d2d2d;
+
+}
